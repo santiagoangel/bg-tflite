@@ -1,0 +1,7 @@
+image_segmenter_options {
+  display_names_locale: "en"
+  output_type: CATEGORY_MASK
+}
+tflite_model {
+  file_name: "background_segmentation.tflite"
+}
